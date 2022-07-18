@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_styles_style_hw10_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/styles/style-hw10.css */ \"./src/styles/style-hw10.css\");\n/* harmony import */ var _src_img_dj_playing_music_at_sound_mixer_in_night_club_53876_18678_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/img/dj-playing-music-at-sound-mixer-in-night-club_53876-18678.jpg */ \"./src/img/dj-playing-music-at-sound-mixer-in-night-club_53876-18678.jpg\");\n/* harmony import */ var _src_modules_hw_10_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/modules/hw-10.js */ \"./src/modules/hw-10.js\");\n/* harmony import */ var _src_modules_hw_10_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_src_modules_hw_10_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_modules_hw_9_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/modules/hw-9.js */ \"./src/modules/hw-9.js\");\n/* harmony import */ var _src_modules_hw_9_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_src_modules_hw_9_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _modules_hw_3__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/hw-3 */ \"./src/modules/hw-3.js\");\n/* harmony import */ var _modules_hw_1__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/hw-1 */ \"./src/modules/hw-1.js\");\n\n\n\n\n\n\n\nconsole.log(\"HW 3: \".concat((0,_modules_hw_3__WEBPACK_IMPORTED_MODULE_4__.getRandomNumber)(10, 100)));\nvar div = document.querySelector('#hw-01');\nvar p = document.createElement('p');\nvar span = document.createElement('span');\nvar info = \"apple = \".concat(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.apple, \", orange = \").concat(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.orange, \", lemon = \").concat(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.lemon);\nvar maxPrice = \"\\u0421\\u0443\\u043C\\u0430 \\u0432\\u0441i\\u0445 \\u0444\\u0440\\u0443\\u043A\\u0442i\\u0432 = \".concat((0,_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.sumProducts)(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.apple, _modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.orange, _modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.lemon), \" \\u0433\\u0440\\u043D. \");\np.append(info);\nspan.append(maxPrice);\ndiv.append(p);\ndiv.append(span);\n\n//# sourceURL=webpack://cursor-webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_styles_style_hw10_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/styles/style-hw10.css */ \"./src/styles/style-hw10.css\");\n/* harmony import */ var _src_img_dj_playing_music_at_sound_mixer_in_night_club_53876_18678_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/img/dj-playing-music-at-sound-mixer-in-night-club_53876-18678.jpg */ \"./src/img/dj-playing-music-at-sound-mixer-in-night-club_53876-18678.jpg\");\n/* harmony import */ var _src_modules_hw_10_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/modules/hw-10.js */ \"./src/modules/hw-10.js\");\n/* harmony import */ var _src_modules_hw_10_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_src_modules_hw_10_js__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _src_modules_hw_9_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/modules/hw-9.js */ \"./src/modules/hw-9.js\");\n/* harmony import */ var _src_modules_hw_9_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_src_modules_hw_9_js__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _modules_hw_3__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/hw-3 */ \"./src/modules/hw-3.js\");\n/* harmony import */ var _modules_hw_1__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/hw-1 */ \"./src/modules/hw-1.js\");\n/* harmony import */ var _src_sounds_boom_wav__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../src/sounds/boom.wav */ \"./src/sounds/boom.wav\");\n/* harmony import */ var _src_sounds_clap_wav__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../src/sounds/clap.wav */ \"./src/sounds/clap.wav\");\n/* harmony import */ var _src_sounds_hihat_wav__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../src/sounds/hihat.wav */ \"./src/sounds/hihat.wav\");\n/* harmony import */ var _src_sounds_kick_wav__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../src/sounds/kick.wav */ \"./src/sounds/kick.wav\");\n/* harmony import */ var _src_sounds_ride_wav__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../src/sounds/ride.wav */ \"./src/sounds/ride.wav\");\n/* harmony import */ var _src_sounds_openhat_wav__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../src/sounds/openhat.wav */ \"./src/sounds/openhat.wav\");\n/* harmony import */ var _src_sounds_snare_wav__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../src/sounds/snare.wav */ \"./src/sounds/snare.wav\");\n/* harmony import */ var _src_sounds_tink_wav__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../src/sounds/tink.wav */ \"./src/sounds/tink.wav\");\n/* harmony import */ var _src_sounds_tom_wav__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../src/sounds/tom.wav */ \"./src/sounds/tom.wav\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nconsole.log(\"HW 3: \".concat((0,_modules_hw_3__WEBPACK_IMPORTED_MODULE_4__.getRandomNumber)(10, 100)));\nvar div = document.querySelector('#hw-01');\nvar p = document.createElement('p');\nvar span = document.createElement('span');\nvar info = \"apple = \".concat(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.apple, \", orange = \").concat(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.orange, \", lemon = \").concat(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.lemon);\nvar maxPrice = \"\\u0421\\u0443\\u043C\\u0430 \\u0432\\u0441i\\u0445 \\u0444\\u0440\\u0443\\u043A\\u0442i\\u0432 = \".concat((0,_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.sumProducts)(_modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.apple, _modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.orange, _modules_hw_1__WEBPACK_IMPORTED_MODULE_5__.lemon), \" \\u0433\\u0440\\u043D. \");\np.append(info);\nspan.append(maxPrice);\ndiv.append(p);\ndiv.append(span);\n\n//# sourceURL=webpack://cursor-webpack/./src/index.js?");
 
 /***/ }),
 
@@ -81,6 +81,105 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"dj-playing-music-at-sound-mixer-in-night-club_53876-18678.jpg\";\n\n//# sourceURL=webpack://cursor-webpack/./src/img/dj-playing-music-at-sound-mixer-in-night-club_53876-18678.jpg?");
+
+/***/ }),
+
+/***/ "./src/sounds/boom.wav":
+/*!*****************************!*\
+  !*** ./src/sounds/boom.wav ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"boom.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/boom.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/clap.wav":
+/*!*****************************!*\
+  !*** ./src/sounds/clap.wav ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"clap.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/clap.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/hihat.wav":
+/*!******************************!*\
+  !*** ./src/sounds/hihat.wav ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"hihat.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/hihat.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/kick.wav":
+/*!*****************************!*\
+  !*** ./src/sounds/kick.wav ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"kick.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/kick.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/openhat.wav":
+/*!********************************!*\
+  !*** ./src/sounds/openhat.wav ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"openhat.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/openhat.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/ride.wav":
+/*!*****************************!*\
+  !*** ./src/sounds/ride.wav ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"ride.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/ride.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/snare.wav":
+/*!******************************!*\
+  !*** ./src/sounds/snare.wav ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"snare.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/snare.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/tink.wav":
+/*!*****************************!*\
+  !*** ./src/sounds/tink.wav ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"tink.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/tink.wav?");
+
+/***/ }),
+
+/***/ "./src/sounds/tom.wav":
+/*!****************************!*\
+  !*** ./src/sounds/tom.wav ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"tom.wav\";\n\n//# sourceURL=webpack://cursor-webpack/./src/sounds/tom.wav?");
 
 /***/ })
 
