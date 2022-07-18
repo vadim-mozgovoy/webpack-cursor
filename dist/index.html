@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>webpack</title>
+<script defer src="bundle.js"></script><link href="bundle.css" rel="stylesheet"></head>
+<body>
+<div class="container">
+    <div class="sound" id="65">A<span>Boom</span></div>
+    <div class="sound" id="83">S<span>Clap</span></div>
+    <div class="sound" id="68">D<span>Hihat</span></div>
+    <div class="sound" id="70">F<span>Kick</span></div>
+    <div class="sound" id="71">G<span>OpenHat</span></div>
+    <div class="sound" id="72">H<span>Ride</span></div>
+    <div class="sound" id="74">J<span>Snare</span></div>
+    <div class="sound" id="75">K<span>Tink</span></div>
+    <div class="sound" id="76">L<span>Tom</span></div>
+    <audio data-key="65" src="boom.wav"></audio>
+    <audio data-key="83" src="clap.wav"></audio>
+    <audio data-key="68" src="hihat.wav"></audio>
+    <audio data-key="70" src="kick.wav"></audio>
+    <audio data-key="71" src="openhat.wav"></audio>
+    <audio data-key="72" src="ride.wav"></audio>
+    <audio data-key="74" src="snare.wav"></audio>
+    <audio data-key="75" src="tink.wav"></audio>
+    <audio data-key="76" src="tom.wav"></audio>
+</div>
+<div class="container2">
+    <div class="btn">
+        <button id="generate">generateBlocks</button>
+        <button id="interval">generateBlocksInterval</button>
+    </div>
+    <div id="content"></div>
+</div>
+<div id="hw-01"></div>
+
+</body>
+</html>
