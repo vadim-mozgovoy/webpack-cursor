@@ -2,10 +2,18 @@ import '../src/styles/style-hw10.css'
 import '../src/img/dj-playing-music-at-sound-mixer-in-night-club_53876-18678.jpg'
 import '../src/modules/hw-10.js'
 import '../src/modules/hw-9.js'
-import '../src/sounds'
 import {getRandomNumber} from "./modules/hw-3";
 import {apple,orange,lemon} from "./modules/hw-1";
 import {sumProducts} from "./modules/hw-1";
+import '../src/sounds/boom.wav'
+import '../src/sounds/clap.wav'
+import '../src/sounds/hihat.wav'
+import '../src/sounds/kick.wav'
+import '../src/sounds/ride.wav'
+import '../src/sounds/openhat.wav'
+import '../src/sounds/snare.wav'
+import '../src/sounds/tink.wav'
+import '../src/sounds/tom.wav'
 
 
 console.log(`HW 3: ${getRandomNumber(10,100)}`);
